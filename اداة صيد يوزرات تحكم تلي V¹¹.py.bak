@@ -1,0 +1,553 @@
+import os,sys,subprocess 
+subprocess.getoutput("pip install mechanize")
+import requests,sys,os,time
+import webbrowser
+webbrowser.open('https://t.me/LY_Sk_M4')
+import requests,random,os,uuid,json,user_agent,time,sys,socket,datetime
+from datetime import date
+from time import sleep
+from user_agent import generate_user_agent
+from uuid import uuid4
+from os import system
+import requests,json
+urlq="https://pastebin.com/QAgPTqJ2"  
+lo=requests.get(urlq).text
+inn =input("\033[1;33mاكتب الباسورد :")
+if inn in lo:
+	print("\033[2;32mLogin Tool FB ✅")
+	sleep(3)
+	os.system('cls'if os.name=="net"else'clear')
+else:
+	print("\033[1;31mNo Login Tool FB ❌")
+	exit()
+import os,sys,subprocess 
+subprocess.getoutput("pip install mechanize")
+import requests,sys,os,time
+import webbrowser
+webbrowser.open('https://t.me/python_pg')
+import os,sys,subprocess
+subprocess.getoutput("pip install requests")
+import requests,sys,os,time
+import os,sys,subprocess 
+subprocess.getoutput("pip install mechanize")
+import requests,sys,os,time
+import webbrowser
+webbrowser.open('https://t.me/LY_Sk_M4')
+import os,time,random,requests,json,sys
+from user_agent import generate_user_agent
+from uuid import uuid4
+from time import sleep
+import webbrowser, random, requests
+from user_agent import generate_user_agent
+import json
+from secrets import token_hex
+import secrets, sys
+import datetime
+os.system('clear')
+r = requests.session()
+now = datetime.datetime.today()
+
+now = datetime.datetime.today()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
+t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
+
+
+
+
+r = requests.session()
+now = datetime.datetime.today()
+now = datetime.datetime.today()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
+
+t=(mm + "/" + dd + "/" + yyyy + " " + hour+ ":" + mi + ":" + ss)
+
+Z = '\033[1;31m' #احمر
+hours = (now.hour)
+x = datetime.datetime.now()
+g= datetime.datetime(2022, 12, 6 , 12, 00 ,0)
+
+if (x.strftime("%x"))>(g.strftime("%x")):
+ print('\n\n')
+ print(Z+"     "+'وقفت الاداة راجع القناة \nBy:@LY_SK_M4\nCh:@SK_M2')
+ print('\n\n')
+ print(x)
+ 
+ sys.exit(0)
+ 
+
+if (x.strftime("%x"))==(g.strftime("%x")):
+   print('')
+   if(x.strftime("%X"))>(g.strftime("%X")):
+    print('\n\n')
+    print(Z+"     "+'\nخلص التفعيل راجع المطور \n للأشتراك راسل المطور \nBy:@LY_SK_M4\nCh:@SK_M2')
+    print('\n\n')
+    print(x)
+    
+    sys.exit(0)
+import telebot
+import requests
+import uuid
+from time import sleep 
+from telebot import types 
+from uuid import uuid4
+import random 
+Z = '\033[1;31m' #احمر
+F = '\033[2;32m' #اخضر
+good = 0
+error = 0
+token = input("[#] Enter Token : ")
+bot = telebot.TeleBot(token)
+@bot.message_handler(commands=["start"])
+def st(message):
+    bot.send_message(message.chat.id,f"""
+    <strong>
+🚸| عذرا عزيزي
+🔰| عليك الاشتراك بقناة البوت لتتمكن من استخدامه
+
+-  @LY_SK_M4 : @python_pg
+
+‼️| اشترك ثم ارسل /User
+</strong>
+    """,parse_mode="html")
+co = types.InlineKeyboardButton(text ="- Start bot ✅",callback_data = 'st')
+ch = types.InlineKeyboardButton(text ="- tele ",url="https://t.me/LY_Sk_M4")
+er3 = types.InlineKeyboardButton(text ="**_** ",callback_data = 'n1')
+er4 = types.InlineKeyboardButton(text ="*_**_",callback_data = 'n2')
+er5 = types.InlineKeyboardButton(text ="*__**",callback_data = 'n3')
+er6 = types.InlineKeyboardButton(text ="***.*",callback_data = 'n4')
+er7 = types.InlineKeyboardButton(text ="- رباعي",callback_data = 'n5')
+er8 = types.InlineKeyboardButton(text ="- خماسي",callback_data = 'n6')
+@bot.message_handler(commands=["User"])
+def start(message):
+    fr = message.from_user.first_name
+    maac = types.InlineKeyboardMarkup()
+    maac.row_width = 1
+    maac.add(co,ch)
+    bot.send_message(message.chat.id,f"""
+    <strong>
+Hello {fr}, 
+=== === ===
+Hey, you in bot Instagram is available User
+( Start Checker ✅ ) 
+=== === ===
+By :  @LY_SK_M4 • @python_pg
+</strong>
+    """,parse_mode="html",reply_markup=maac)
+@bot.callback_query_handler(func=lambda call: True)
+def qwere(call):
+    if call.data == "st":
+        li(call.message)
+    if call.data == "n1":
+        n1(call.message)
+    if call.data == "n2":
+        n2(call.message)
+    if call.data == "n3":
+        n3(call.message)
+    if call.data == "n4":
+        n4(call.message) 
+    if call.data == "n5":
+        n5(call.message)
+    if call.data == "n6":
+        n6(call.message)                 
+def li(message):
+    fr = message.from_user.first_name
+    fz = message.from_user.username
+    l = types.InlineKeyboardMarkup()
+    l.row_width = 2
+    l.add(er3,er4,er5,er6,er7,er8)
+    bot.send_message(message.chat.id,f"""
+Hello {fr},
+welcome {fz}
+=== === ===
+اختر ؟ 
+ماذا تريد
+=== === ===
+    """,parse_mode="html",reply_markup=l)
+def n1(message):
+	teq = "0623417895bzvxgardswqpeknhlh"
+	while True:
+		help = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))		
+		user = wel + era + '_' + era + help
+		url = requests.post('https://www.instagram.com/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
+'content-length':'85',
+'sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"',
+'x-ig-app-id':'936619743392459',
+'x-ig-www-claim':'0',
+'sec-ch-ua-mobile':'?0',
+'x-instagram-ajax':'81f3a3c9dfe2',
+'content-type':'application/x-www-form-urlencoded',
+'accept':'*/*',
+'x-requested-with':'XMLHttpRequest',
+'x-asbd-id':'198387',
+'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36',
+'x-csrftoken':'jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'sec-ch-ua-platform':'"Linux"',
+'origin':'https://www.instagram.com',
+'sec-fetch-site':'same-origin',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://www.instagram.com/accounts/emailsignup/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'en-IQ,en;q=0.9',
+'cookie':'csrftoken=jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'cookie':'mid=YtsQ1gABAAEszHB5wT9VqccwQIUL',
+'cookie':'ig_did=227CCCC2-3675-4A04-8DA5-BA3195B46425',
+'cookie':'ig_nrcb=1'},data=f'email=aakmnnsjskksmsnsn%40gmail.com&username={user}&first_name=&opt_into_one_tap=false')
+		if '{"message":"feedback_required","spam":true,"feedback_title":"Try Again Later","feedback_message":"We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.","feedback_url":"repute/report_problem/scraping/","feedback_appeal_label":"Tell us","feedback_ignore_label":"OK","feedback_action":"report_problem","status":"fail"}' in url.text:
+			print('ERIR')		
+		elif  '"errors": {"username":' in url.text or  '"code": "username_is_taken"' in url.text:
+			hzx = (Z+f' eror user {user}')
+			print(hzx)
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/PPGBB ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+
+		else:
+			print(F+f"done user : {user}")
+			bot.send_message(message.chat.id,f"""
+𝙷𝙸 𝙿𝚁𝙾 𝙽𝙴𝚆 𝚄𝚂𝙴𝚁 𝙸𝙽𝚂𝚃𝙰 \n
+☆━━━━━━━━━━━━━━☆
+
+✇ 𝑼𝑺𝑬𝑹 ☛ {user}
+
+☆━━━━━━━━━━━━━━☆
+𝙿𝚁𝙾 :  @LY_SK_M4 : @python_pg			
+			""")
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 	
+def n2(message):
+	teq = "uzbcgcnqowutsfsksmnfowu0183553829"
+	while True:
+		help = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))		
+		user = wel + '_' + help + era + '_'
+		url = requests.post('https://www.instagram.com/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
+'content-length':'85',
+'sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"',
+'x-ig-app-id':'936619743392459',
+'x-ig-www-claim':'0',
+'sec-ch-ua-mobile':'?0',
+'x-instagram-ajax':'81f3a3c9dfe2',
+'content-type':'application/x-www-form-urlencoded',
+'accept':'*/*',
+'x-requested-with':'XMLHttpRequest',
+'x-asbd-id':'198387',
+'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36',
+'x-csrftoken':'jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'sec-ch-ua-platform':'"Linux"',
+'origin':'https://www.instagram.com',
+'sec-fetch-site':'same-origin',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://www.instagram.com/accounts/emailsignup/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'en-IQ,en;q=0.9',
+'cookie':'csrftoken=jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'cookie':'mid=YtsQ1gABAAEszHB5wT9VqccwQIUL',
+'cookie':'ig_did=227CCCC2-3675-4A04-8DA5-BA3195B46425',
+'cookie':'ig_nrcb=1'},data=f'email=aakmnnsjskksmsnsn%40gmail.com&username={user}&first_name=&opt_into_one_tap=false')
+		if '{"message":"feedback_required","spam":true,"feedback_title":"Try Again Later","feedback_message":"We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.","feedback_url":"repute/report_problem/scraping/","feedback_appeal_label":"Tell us","feedback_ignore_label":"OK","feedback_action":"report_problem","status":"fail"}' in url.text:
+			print('ERIR')		
+		elif  '"errors": {"username":' in url.text or  '"code": "username_is_taken"' in url.text:
+			hzx = (Z+f' eror user {user}')
+			print(hzx)
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+
+		else:
+			print(F+f"done user : {user}")
+			bot.send_message(message.chat.id,f"""
+𝙷𝙸 𝙿𝚁𝙾 𝙽𝙴𝚆 𝚄𝚂𝙴𝚁 𝙸𝙽𝚂𝚃𝙰 \n
+☆━━━━━━━━━━━━━━☆
+
+✇ 𝑼𝑺𝑬𝑹 ☛ {user}
+
+☆━━━━━━━━━━━━━━☆
+𝙿𝚁𝙾 :  @LY_SK_M4 : @python_pg			
+			""")
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/LY_SK_M4 ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/PPGBB ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees)
+def n3(message):
+	teq = "bxv7442393801nxnhfkalhgfurowoqyr"
+	while True:
+		help = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))		
+		user = wel + '_' + '_' + era + help
+		url = requests.post('https://www.instagram.com/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
+'content-length':'85',
+'sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"',
+'x-ig-app-id':'936619743392459',
+'x-ig-www-claim':'0',
+'sec-ch-ua-mobile':'?0',
+'x-instagram-ajax':'81f3a3c9dfe2',
+'content-type':'application/x-www-form-urlencoded',
+'accept':'*/*',
+'x-requested-with':'XMLHttpRequest',
+'x-asbd-id':'198387',
+'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36',
+'x-csrftoken':'jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'sec-ch-ua-platform':'"Linux"',
+'origin':'https://www.instagram.com',
+'sec-fetch-site':'same-origin',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://www.instagram.com/accounts/emailsignup/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'en-IQ,en;q=0.9',
+'cookie':'csrftoken=jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'cookie':'mid=YtsQ1gABAAEszHB5wT9VqccwQIUL',
+'cookie':'ig_did=227CCCC2-3675-4A04-8DA5-BA3195B46425',
+'cookie':'ig_nrcb=1'},data=f'email=aakmnnsjskksmsnsn%40gmail.com&username={user}&first_name=&opt_into_one_tap=false')
+		if '{"message":"feedback_required","spam":true,"feedback_title":"Try Again Later","feedback_message":"We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.","feedback_url":"repute/report_problem/scraping/","feedback_appeal_label":"Tell us","feedback_ignore_label":"OK","feedback_action":"report_problem","status":"fail"}' in url.text:
+			print('ERIR')		
+		elif  '"errors": {"username":' in url.text or  '"code": "username_is_taken"' in url.text:
+			hzx = (Z+f' eror user {user}')
+			print(hzx)
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+
+		else:
+			print(F+f"done user : {user}")
+			bot.send_message(message.chat.id,f"""
+𝙷𝙸 𝙿𝚁𝙾 𝙽𝙴𝚆 𝚄𝚂𝙴𝚁 𝙸𝙽𝚂𝚃𝙰 \n
+☆━━━━━━━━━━━━━━☆
+
+✇ 𝑼𝑺𝑬𝑹 ☛ {user}
+
+☆━━━━━━━━━━━━━━☆
+𝙿𝚁𝙾 :  @LY_SK_M4 : @python_pg			
+			""")
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 
+def n4(message):
+	teq = "8tvzbap431bskqln89244xvvaopruegfla"
+	while True:
+		help = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))		
+		user = wel + era + wel + '.' + help
+		url = requests.post('https://www.instagram.com/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
+'content-length':'85',
+'sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"',
+'x-ig-app-id':'936619743392459',
+'x-ig-www-claim':'0',
+'sec-ch-ua-mobile':'?0',
+'x-instagram-ajax':'81f3a3c9dfe2',
+'content-type':'application/x-www-form-urlencoded',
+'accept':'*/*',
+'x-requested-with':'XMLHttpRequest',
+'x-asbd-id':'198387',
+'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36',
+'x-csrftoken':'jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'sec-ch-ua-platform':'"Linux"',
+'origin':'https://www.instagram.com',
+'sec-fetch-site':'same-origin',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://www.instagram.com/accounts/emailsignup/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'en-IQ,en;q=0.9',
+'cookie':'csrftoken=jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'cookie':'mid=YtsQ1gABAAEszHB5wT9VqccwQIUL',
+'cookie':'ig_did=227CCCC2-3675-4A04-8DA5-BA3195B46425',
+'cookie':'ig_nrcb=1'},data=f'email=aakmnnsjskksmsnsn%40gmail.com&username={user}&first_name=&opt_into_one_tap=false')
+		if '{"message":"feedback_required","spam":true,"feedback_title":"Try Again Later","feedback_message":"We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.","feedback_url":"repute/report_problem/scraping/","feedback_appeal_label":"Tell us","feedback_ignore_label":"OK","feedback_action":"report_problem","status":"fail"}' in url.text:
+			print('ERIR')		
+		elif  '"errors": {"username":' in url.text or  '"code": "username_is_taken"' in url.text:
+			hzx = (Z+f' eror user {user}')
+			print(hzx)
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+
+		else:
+			print(F+f"done user : {user}")
+			bot.send_message(message.chat.id,f"""
+𝙷𝙸 𝙿𝚁𝙾 𝙽𝙴𝚆 𝚄𝚂𝙴𝚁 𝙸𝙽𝚂𝚃𝙰 \n
+☆━━━━━━━━━━━━━━☆
+
+✇ 𝑼𝑺𝑬𝑹 ☛ {user}
+
+☆━━━━━━━━━━━━━━☆
+𝙿𝚁𝙾 :  @LY_SK_M4 : @python_pg			
+			""")
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 
+def n5(message):
+	teq = "cbxmxnsjgaywoeorurydhdkalsnbxxtwiwpworuhdvzbz018262535830492625272901"
+	while True:
+		help = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		user = wel + era + era + help
+		url = requests.post('https://www.instagram.com/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
+'content-length':'85',
+'sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"',
+'x-ig-app-id':'936619743392459',
+'x-ig-www-claim':'0',
+'sec-ch-ua-mobile':'?0',
+'x-instagram-ajax':'81f3a3c9dfe2',
+'content-type':'application/x-www-form-urlencoded',
+'accept':'*/*',
+'x-requested-with':'XMLHttpRequest',
+'x-asbd-id':'198387',
+'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36',
+'x-csrftoken':'jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'sec-ch-ua-platform':'"Linux"',
+'origin':'https://www.instagram.com',
+'sec-fetch-site':'same-origin',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://www.instagram.com/accounts/emailsignup/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'en-IQ,en;q=0.9',
+'cookie':'csrftoken=jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'cookie':'mid=YtsQ1gABAAEszHB5wT9VqccwQIUL',
+'cookie':'ig_did=227CCCC2-3675-4A04-8DA5-BA3195B46425',
+'cookie':'ig_nrcb=1'},data=f'email=aakmnnsjskksmsnsn%40gmail.com&username={user}&first_name=&opt_into_one_tap=false')
+		if '{"message":"feedback_required","spam":true,"feedback_title":"Try Again Later","feedback_message":"We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.","feedback_url":"repute/report_problem/scraping/","feedback_appeal_label":"Tell us","feedback_ignore_label":"OK","feedback_action":"report_problem","status":"fail"}' in url.text:
+			print('ERIR')		
+		elif  '"errors": {"username":' in url.text or  '"code": "username_is_taken"' in url.text:
+			hzx = (Z+f' eror user {user}')
+			print(hzx)
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+
+		else:
+			print(F+f"done user : {user}")
+			bot.send_message(message.chat.id,f"""
+𝙷𝙸 𝙿𝚁𝙾 𝙽𝙴𝚆 𝚄𝚂𝙴𝚁 𝙸𝙽𝚂𝚃𝙰 \n
+☆━━━━━━━━━━━━━━☆
+
+✇ 𝑼𝑺𝑬𝑹 ☛ {user}
+
+☆━━━━━━━━━━━━━━☆	
+𝙿𝚁𝙾 :  @LY_SK_M4 : @python_pg		
+			""")
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇮🇶] : programming : ",url="https://t.me/PPGBB ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees)
+def n6(message):
+	teq = "bxvzcvlalsjgsrtuqpwoeiur2519494726"
+	while True:
+		help = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		wel = str("".join(random.choice(teq)for x in range(1)))
+		era = str("".join(random.choice(teq)for x in range(1)))		
+		user = wel + era + help + era + help
+		url = requests.post('https://www.instagram.com/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
+'content-length':'85',
+'sec-ch-ua':'" Not A;Brand";v="99", "Chromium";v="101"',
+'x-ig-app-id':'936619743392459',
+'x-ig-www-claim':'0',
+'sec-ch-ua-mobile':'?0',
+'x-instagram-ajax':'81f3a3c9dfe2',
+'content-type':'application/x-www-form-urlencoded',
+'accept':'*/*',
+'x-requested-with':'XMLHttpRequest',
+'x-asbd-id':'198387',
+'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Safari/537.36',
+'x-csrftoken':'jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'sec-ch-ua-platform':'"Linux"',
+'origin':'https://www.instagram.com',
+'sec-fetch-site':'same-origin',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://www.instagram.com/accounts/emailsignup/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'en-IQ,en;q=0.9',
+'cookie':'csrftoken=jzhjt4G11O37lW1aDFyFmy1K0yIEN9Qv',
+'cookie':'mid=YtsQ1gABAAEszHB5wT9VqccwQIUL',
+'cookie':'ig_did=227CCCC2-3675-4A04-8DA5-BA3195B46425',
+'cookie':'ig_nrcb=1'},data=f'email=aakmnnsjskksmsnsn%40gmail.com&username={user}&first_name=&opt_into_one_tap=false')
+		if '{"message":"feedback_required","spam":true,"feedback_title":"Try Again Later","feedback_message":"We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.","feedback_url":"repute/report_problem/scraping/","feedback_appeal_label":"Tell us","feedback_ignore_label":"OK","feedback_action":"report_problem","status":"fail"}' in url.text:
+			print('ERIR')		
+		elif  '"errors": {"username":' in url.text or  '"code": "username_is_taken"' in url.text:
+			hzx = (Z+f' eror user {user}')
+			print(hzx)
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/python_pg ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+
+		else:
+			print(F+f"done user : {user}")
+			bot.send_message(message.chat.id,f"""
+𝙷𝙸 𝙿𝚁𝙾 𝙽𝙴𝚆 𝚄𝚂𝙴𝚁 𝙸𝙽𝚂𝚃𝙰 \n
+☆━━━━━━━━━━━━━━☆
+
+✇ 𝑼𝑺𝑬𝑹 ☛ {user}
+
+☆━━━━━━━━━━━━━━☆
+𝙿𝚁𝙾 :  @LY_SK_M4 : @python_pg			
+			""")
+			mees = types.InlineKeyboardMarkup(row_width=1)
+			buut2 = types.InlineKeyboardButton(f" [▶️] User  : {user}",callback_data='jhi5')
+			buut4 = types.InlineKeyboardButton(f" [🧑‍💻]  Dev : ",url="https://t.me/LY_Sk_M4 ",callback_data='jhi2')
+			buut5 = types.InlineKeyboardButton(f" [🇱🇾🇮🇶] : programming : ",url="https://t.me/PPGBB ",callback_data='jhi9')
+			mees.add(buut2,buut4,buut5)
+			bot.edit_message_text(chat_id=message.chat.id,message_id=message.message_id,text=" جاري الصيد .... ",parse_mode='markdown',reply_markup=mees) 			
+bot.polling()
